@@ -11,6 +11,7 @@ description = 'appEC2_20260211'
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(17)
+        vendor = JvmVendorSpec.AMAZON
     }
 }
 
